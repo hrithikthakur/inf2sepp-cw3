@@ -157,7 +157,7 @@ public class Main {
                 "The University of Edinburgh, School of Informatics",
                 "10 Crichton Street, Edinburgh EH8 9AB, United Kingdom",
                 "epay@ed.ac.uk",
-                "Nec temere nec timide"
+                "3"
         )) {
             ConsoleView view = new ConsoleView();
             Controller controller = new Controller(context, view);

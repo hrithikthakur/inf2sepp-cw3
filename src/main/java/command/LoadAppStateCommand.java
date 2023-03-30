@@ -1,8 +1,7 @@
-import command.ICommand;
+package command;
+
 import controller.Context;
 import view.IView;
-
-import java.io.IOException;
 
 public class LoadAppStateCommand implements ICommand<Boolean> {
     private Boolean successResult;
@@ -17,7 +16,7 @@ public class LoadAppStateCommand implements ICommand<Boolean> {
         try {
             context.loadAppState(filename);
             successResult = true;
-        } catch (IOException e) {
+        } catch (Exception e) {
             successResult = false;
         }
     }

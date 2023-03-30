@@ -54,7 +54,7 @@ public class UserState implements IUserState {
     @Override
     public Map<String, Object> getUserState(){
         Map<String, Object> state = new HashMap<>();
-        state.put("Userss", users);
+        state.put("Users", users);
         state.put("Current User", currentUser);
         return state;
     }

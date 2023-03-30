@@ -93,7 +93,7 @@ public class UserLoginTests extends ConsoleTest {
         controller.runCommand(new RegisterStaffCommand(
                 "always@lovin.it",
                 "Ronald McDonald",
-                "Nec temere nec timide"
+                "boogaboo"
         ));
         stopOutputCaptureAndCompare(
                 "REGISTER_STAFF_SUCCESS",
@@ -108,7 +108,7 @@ public class UserLoginTests extends ConsoleTest {
         controller.runCommand(new RegisterStaffCommand(
                 "always@lovin.it",
                 "McMuffin",
-                "Nec temere nec timide"
+                "boogaboo"
         ));
         controller.runCommand(new LogoutCommand());
         controller.runCommand(new LoginCommand("always@lovin.it", "McMuffin"));
