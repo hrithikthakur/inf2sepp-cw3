@@ -6,7 +6,8 @@ import view.IView;
 /**
  * {@link LogoutCommand} allows the currently logged in {@link model.User} to log out
  */
-public class LogoutCommand implements ICommand<Void> {
+public class
+LogoutCommand implements ICommand<Void> {
     /**
      * @param context object that provides access to global application state
      * @param view    allows passing information to the user interface
