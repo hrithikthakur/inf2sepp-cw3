@@ -21,10 +21,10 @@ public class Context implements AutoCloseable {
     private final String orgSecret;
 //    private final MapSystem mapSystem;
     private final PaymentSystem paymentSystem;
-    private final IUserState userState;
-    private final IEventState eventState;
-    private final IBookingState bookingState;
-    private final IReviewState reviewState;
+    private  IUserState userState;
+    private  IEventState eventState;
+    private  IBookingState bookingState;
+    private IReviewState reviewState;
 
     /**
      * Initialises all the state members with default constructors of the concrete implementations:
